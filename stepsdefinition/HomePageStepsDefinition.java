@@ -143,14 +143,14 @@ public class HomePageStepsDefinition {
 	
 ////////////////////////////////////////////////////////////////////////////////////////
 
-	// Sub Navbar Elements - New In
-
-	@When("^I click on Trainers from New In sub options$")
-	public void i_click_on_Trainers_from_New_In_sub_options() throws Throwable {
-		Thread.sleep(2000);
-		KGHomePage.subTrainersTab();
-	}
-	
+//	// Sub Navbar Elements - New In
+//
+//	@When("^I click on Trainers from New In sub options$")
+//	public void i_click_on_Trainers_from_New_In_sub_options() throws Throwable {
+//		Thread.sleep(2000);
+//		KGHomePage.subTrainersTab();
+//	}
+//	
 ////////////////////////////////////////////////////////////////////////////////////////
 
 	// Main Sections

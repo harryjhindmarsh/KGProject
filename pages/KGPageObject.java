@@ -102,136 +102,136 @@ public class KGPageObject {
 	
 	
 	// Sub Navbar Elements
-	
-	@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[2]/a") 
-	WebElement subTrainersTab;
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[2]/a"), // Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[3]/a"), // Bags
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[4]/a"), // Sandals
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[5]/a"), // Heels
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[6]/a"), // Flats
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[7]/a"), // NHS Tote Bag
-	})
-	public List <WebElement> subNewInOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[3]/a"), // Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[4]/a"), // Flats
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[5]/a"), // Sandals
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[6]/a"), // Wedges
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[7]/a"), // Flats
-	})
-	public List <WebElement> subWomenOptions;
-
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[2]/a"), // Kensington
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[3]/a"), // Cross Body Bags
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[4]/a"), // Shoreditch Bags
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[5]/a"), // KG London
-	})
-	public List <WebElement> subBagsOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[2]/a"), // Wedges
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[3]/a"), // Flat Sandals
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[4]/a"), // Heeled Sandals
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[5]/a"), // Espadrilles
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[6]/a"), // Sliders
-	})
-	public List <WebElement> subSandalsOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[1]/a"), // White Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[2]/a"), // Chunky Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[3]/a"), // Embellished Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[4]/a"), // Sock Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[5]/a"), // Carvela Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[6]/a"), // All Women's Trainers
-	})
-	public List <WebElement> subTrainersOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[2]/a"), // Mens Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[3]/a"), // Loafers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[4]/a"), // Formals
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[5]/a"), // Boots
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[6]/a"), // Sandals & Sliders
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[7]/a"), // Mens New In
-	})
-	public List <WebElement> subMensOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[1]/a"), // All Kids
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[2]/a"), // Girls
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[3]/a"), // Boys
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[4]/a"), // Toddler
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[5]/a"), // Girls Trainers
-	})
-	public List <WebElement> subKidsOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[1]/a"), // All Carvela
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[2]/a"), // Carvela Comfort
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[3]/a"), // Trainers
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[4]/a"), // Heels
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[5]/a"), // Bags
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[6]/a"), // Sandals
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[7]/a"), // Flats
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[8]/a"), // Boots
-	})
-	public List <WebElement> subCarvelaOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[1]/a"), // KG London
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[2]/a"), // KG Kurt Geiger
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[3]/a"), // Miss KG
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[4]/a"), // Carvela
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[5]/a"), // Carvela Comfort
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[6]/a"), // UGG
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[1]/a"), // Nine West
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[2]/a"), // Aldo
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[3]/a"), // Steven Madden
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[4]/a"), // Michael Kors
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[5]/a"), // All Brands
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[6]/a"), // Who What Wear
-	})
-	public List <WebElement> subBrandsOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[1]/a"), // We Are One NHS Tote
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[2]/a"), // COVID-19 Update
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[3]/a"), // We Love NHS
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[4]/a"), // Small Acts of Kindness
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[5]/a"), // Get Creative 
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[6]/a"), // Rainbow Collection
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[7]/a"), // Read Our Stories
-	})
-	public List <WebElement> subStoriesOptions;
-	
-	
-	@FindAll ({
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[1]/a"), // Womens Shoes
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[2]/a"), // Bags
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[3]/a"), // Boots
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[4]/a"), // Heels
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[5]/a"), // Trainers 
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[6]/a"), // Flats
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[7]/a"), // Mens
-		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[8]/a"), // Kids
-	})
-	public List <WebElement> subSalesOptions;
-	
+//	
+//	@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[2]/a") 
+//	WebElement subTrainersTab;
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[2]/a"), // Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[3]/a"), // Bags
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[4]/a"), // Sandals
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[5]/a"), // Heels
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[6]/a"), // Flats
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[1]/div[2]/div/div/ul/li[7]/a"), // NHS Tote Bag
+//	})
+//	public List <WebElement> subNewInOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[3]/a"), // Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[4]/a"), // Flats
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[5]/a"), // Sandals
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[6]/a"), // Wedges
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[2]/div[2]/div/div/ul[1]/li[7]/a"), // Flats
+//	})
+//	public List <WebElement> subWomenOptions;
+//
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[2]/a"), // Kensington
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[3]/a"), // Cross Body Bags
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[4]/a"), // Shoreditch Bags
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[3]/div[2]/div/div/ul/li[5]/a"), // KG London
+//	})
+//	public List <WebElement> subBagsOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[2]/a"), // Wedges
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[3]/a"), // Flat Sandals
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[4]/a"), // Heeled Sandals
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[5]/a"), // Espadrilles
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[4]/div[2]/div/div/ul/li[6]/a"), // Sliders
+//	})
+//	public List <WebElement> subSandalsOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[1]/a"), // White Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[2]/a"), // Chunky Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[3]/a"), // Embellished Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[4]/a"), // Sock Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[5]/a"), // Carvela Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[5]/div[2]/div/div/ul/li[6]/a"), // All Women's Trainers
+//	})
+//	public List <WebElement> subTrainersOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[2]/a"), // Mens Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[3]/a"), // Loafers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[4]/a"), // Formals
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[5]/a"), // Boots
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[6]/a"), // Sandals & Sliders
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[6]/div[2]/div/div/ul/li[7]/a"), // Mens New In
+//	})
+//	public List <WebElement> subMensOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[1]/a"), // All Kids
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[2]/a"), // Girls
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[3]/a"), // Boys
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[4]/a"), // Toddler
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[7]/div[2]/div/div/ul/li[5]/a"), // Girls Trainers
+//	})
+//	public List <WebElement> subKidsOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[1]/a"), // All Carvela
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[2]/a"), // Carvela Comfort
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[3]/a"), // Trainers
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[4]/a"), // Heels
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[5]/a"), // Bags
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[6]/a"), // Sandals
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[7]/a"), // Flats
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[8]/div[2]/div/div/ul/li[8]/a"), // Boots
+//	})
+//	public List <WebElement> subCarvelaOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[1]/a"), // KG London
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[2]/a"), // KG Kurt Geiger
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[3]/a"), // Miss KG
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[4]/a"), // Carvela
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[5]/a"), // Carvela Comfort
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[1]/li[6]/a"), // UGG
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[1]/a"), // Nine West
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[2]/a"), // Aldo
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[3]/a"), // Steven Madden
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[4]/a"), // Michael Kors
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[5]/a"), // All Brands
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[9]/div[2]/div/div/ul[2]/li[6]/a"), // Who What Wear
+//	})
+//	public List <WebElement> subBrandsOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[1]/a"), // We Are One NHS Tote
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[2]/a"), // COVID-19 Update
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[3]/a"), // We Love NHS
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[4]/a"), // Small Acts of Kindness
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[5]/a"), // Get Creative 
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[6]/a"), // Rainbow Collection
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[10]/div[2]/div/div/ul/li[7]/a"), // Read Our Stories
+//	})
+//	public List <WebElement> subStoriesOptions;
+//	
+//	
+//	@FindAll ({
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[1]/a"), // Womens Shoes
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[2]/a"), // Bags
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[3]/a"), // Boots
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[4]/a"), // Heels
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[5]/a"), // Trainers 
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[6]/a"), // Flats
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[7]/a"), // Mens
+//		@FindBy (xpath = "//*[@id=\"top-nav\"]/ul/li[11]/div[2]/div/div/ul/li[8]/a"), // Kids
+//	})
+//	public List <WebElement> subSalesOptions;
+//	
 	
 	// Main Content Elements
 	

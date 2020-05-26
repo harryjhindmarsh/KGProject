@@ -166,14 +166,14 @@ public class KGHomePage {
 	
 	// Main Content
 	
-	// Sub Navbar Elements - New In
-	public static void subTrainersTab() {
-		Actions action = new Actions(driver);
-		action.moveToElement(KGPageObject.newInTab).perform();
-		KGPageObject.subTrainersTab.click();
-		
-	}
-	
+//	// Sub Navbar Elements - New In
+//	public static void subTrainersTab() {
+//		Actions action = new Actions(driver);
+//		action.moveToElement(KGPageObject.newInTab).perform();
+//		KGPageObject.subTrainersTab.click();
+//		
+//	}
+//	
 	// Main Content Elements
 	public static void shopBagsSection() throws InterruptedException {
 		KGPageObject.shopBagsSection.click();
